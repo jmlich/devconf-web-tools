@@ -83,17 +83,25 @@ function talk_type($name) {
     return 'Talk';
 }
 
+$rooms = array();
 function room_short($name) {
   $patterns = array(
     '/Lab room /',
     '/Lecture room /',
-    '/Workshop room /',
+    '/Workshop room L1 - B410/',
+    '/Workshop room L2 - C525/',
+    '/Workshop room L3 - C511/',
   );
   $replacements = array(
     '',
     '',
-    '',
+    'L1',
+    'L2',
+    'L3',
   );
+  global $rooms;
+  array_push($rooms,  $name);
+
   return  preg_replace($patterns, $replacements, $name);
 }
 
@@ -105,8 +113,13 @@ function room_color($short) {
   'D3' => '#8ae234',
   'L1' => '#729fcf', 
   'L2' => '#ef2929',
-  'L3' => '#ad7fa8'
+  'L3' => '#ad7fa8',
+  '' => '#ffffff',
  );
+
+  if (!array_key_exists($short, $array)) {
+    $short = '';
+  }
   return $array[$short];
 
 }
@@ -123,15 +136,18 @@ $days = array();
 
 foreach ($sessions_d as $idx => $item) {
  // echo "<pre>".print_r($item, true)."</pre>";
+
+
+  $venue = isset($item['venue']) ? $item['venue'] : '';
   $out = array();
-  $out['type'] = talk_type($item['venue']);
+  $out['type'] = talk_type($venue);
   $event_start = parseTime($item['event_start']);
   $out['event_start'] = $event_start;
   $out['event_start_rfc'] = date('r', $event_start);
   $out['event_end']   = parseTime($item['event_end']);
   $out['event_end_rfc'] = date('r', $out['event_end']);
-  $out['room'] = $item['venue'];
-  $out['room_short'] = room_short($item['venue']);
+  $out['room'] = $venue;
+  $out['room_short'] = room_short($venue);
   $out['room_color'] = room_color($out['room_short']);
   $out['topic'] = sanitizeTopic($item['name']);
 
@@ -148,6 +164,7 @@ foreach ($sessions_d as $idx => $item) {
 //  if ($i++ > 30)  exit();
 }
 $days = array_values(array_unique($days));
+sort($days);
 
 function session_sortfn($a, $b) {
     if ($a['event_start'] == $b['event_start']) {
@@ -175,6 +192,17 @@ foreach ($rss_data['rss']['channel']['item'] as $item) {
   array_push($rss, $out);
 //  echo "<pre>".print_r($item, true)."</pre>";
 }
+
+
+function rss_sort_function($a, $b) {
+    if ($a['time'] == $b['time']) {
+        return 0;
+    }
+    return ($a['time'] > $b['time']) ? -1 : 1;
+}
+
+
+usort($rss, "rss_sort_function");
 //echo "<pre>".print_r($rss, true)."</pre>";
 //exit();
 
@@ -196,7 +224,8 @@ $all_data['about'][1]['title'] = 'Venue';
 $all_data['about'][1]['text'] = "
 Brno is by population the second largest also the largest city of Moravia and historic former capital of Moravia. Additionally, it is also the center of the judiciary,  located there are the seats of the Constitutional Court, Supreme Court, Supreme Administrative Court and Supreme Public Prosecutor's Office. Besides, it is very important administrative center, because the state authorities with national enforcement powers and other important institutions reside there. Brno is also one of the most important university cities of the Czech Republic. It is home of 13 universities and colleges, which are attended by more than 90 000 students. The biggest one is Masaryk University, with more then 30.000 students. It is Faculty of Informatics of this University that hosts DevConf.cz.<br/>
 Please note that the Faculty is currently under reconstruction. The new entrance is on the back part of the building, closer to the conference rooms.<br/><br/>
-Address of the faculty is: Masarykova univerzita Brno - Fakulta informatiky Botanická 554/68a, 602 00 Brno Czech Republic +420 549 491 810 The faculty on <a href=\"geo:49.21,16.599201\">openstreetmap</a> and on <a href=\"http://maps.google.com/maps?f=q&hl=en&geocode=&q=Fakulta+Informatiky+Masarykovy+Univerzity,+Brno&sll=37.0625,-95.677068&sspn=37.598824,91.054688&ie=UTF8&cd=1&ll=49.209944,16.598947&spn=0.007584,0.02223&z=16&iwloc=addr\">googlemaps</a>.";
+Address of the faculty is: <br/>Masarykova univerzita Brno - Fakulta informatiky <br/>Botanická 554/68a <br/>602 00 Brno <br/>Czech Republic <br/>+420 549 491 810 <br/> <br/> The faculty on the <a href=\"geo:49.21,16.599201\">map</a>.";
+// and on <a href=\"http://maps.google.com/maps?f=q&hl=en&geocode=&q=Fakulta+Informatiky+Masarykovy+Univerzity,+Brno&sll=37.0625,-95.677068&sspn=37.598824,91.054688&ie=UTF8&cd=1&ll=49.209944,16.598947&spn=0.007584,0.02223&z=16&iwloc=addr\">googlemaps</a>.
 
 
 $all_data['about'][2]['title'] ='Accommodation';
@@ -241,5 +270,7 @@ echo "<br/> &mdash; <br/>";
 echo "<pre>".print_r($all_data, true)."</pre>";
 
 echo "<br/> &mdash; <br/>";
+$rooms = array_unique($rooms);
+echo "<pre>",print_r($rooms, true)."</pre>";
 
 ?>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://www.devconf.cz/main-page-news" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Main Page News</title>
+    <link>http://www.devconf.cz/main-page-news</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Check out the conference schedule!</title>
+    <link>http://www.devconf.cz/content/check-out-conference-schedule</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Take a look at &lt;a href=&quot;http://www.devconf.cz/schedule&quot;&gt;www.devconf.cz/schedule&lt;/a&gt; for the full conference schedule. We have 96 main speakers and several additional ones lined up for Lightning talks. Alltogether we plan to have 95 session and 6 sessions full of Lightning talks. It&#039;s going to be a PACKED EVENT!&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;form-item form-type-item&quot;&gt;
+  &lt;label&gt;Language &lt;/label&gt;
+ English
+&lt;/div&gt;
+</description>
+     <pubDate>Mon, 06 Jan 2014 21:20:52 +0000</pubDate>
+ <dc:creator>rvokal</dc:creator>
+ <guid isPermaLink="false">64 at http://www.devconf.cz</guid>
+  </item>
+  <item>
+    <title>OpenShift Winter of Code</title>
+    <link>http://www.devconf.cz/content/openshift-winter-code</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;strong&gt;The &lt;a href=&quot;http://openshift.devconf.cz&quot;&gt;OpenShift Winter of Code &lt;/a&gt;&lt;/strong&gt; is a competition for the best application built on OpenShift. From most practical to the most crazy, submit your applications and win fabulous prizes. The competition ends right before the conference. The best applications will be awarded and shown at the conference. Good luck!&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;form-item form-type-item&quot;&gt;
+  &lt;label&gt;Language &lt;/label&gt;
+ English
+&lt;/div&gt;
+&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; rel=&quot;dc:subject&quot;&gt;&lt;a href=&quot;/tags/openshift&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;OpenShift&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot; rel=&quot;dc:subject&quot;&gt;&lt;a href=&quot;/tags/competition&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Competition&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Mon, 25 Nov 2013 13:23:59 +0000</pubDate>
+ <dc:creator>rvokal</dc:creator>
+ <guid isPermaLink="false">27 at http://www.devconf.cz</guid>
+  </item>
+  <item>
+    <title>Public call for papers for DevConf 2014 has started!</title>
+    <link>http://www.devconf.cz/content/public-call-papers-devconf-2014-has-started</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;We&#039;re looking for 45-minute presentations, 90-minute (and longer) workshops/labs, and 15-minute short talks. The talks should be targeted at developers who already have some understanding of the technology. We&#039;re looking for architecture talks as well as talks about development plans, possible participation in projects, testing new features or even using these cool new features to improve productivity of develoeper&#039;s tough life.We usually have the following tracks: Kernel, CoreOS, Desktop, JBoss, Cloud, Virtualization, Security, Fedora.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;form-item form-type-item&quot;&gt;
+  &lt;label&gt;Language &lt;/label&gt;
+ English
+&lt;/div&gt;
+</description>
+     <pubDate>Fri, 18 Oct 2013 13:23:55 +0000</pubDate>
+ <dc:creator>jeischma</dc:creator>
+ <guid isPermaLink="false">23 at http://www.devconf.cz</guid>
+  </item>
+  </channel>
+</rss>
