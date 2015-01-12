@@ -5,6 +5,71 @@
     <description></description>
     <language>en</language>
           <item>
+    <title>The schedule of DevConf.cz 2015 is out!</title>
+    <link>http://www.devconf.cz/schedule-devconfcz-2015-out</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;We&#039;re proud to announce the &lt;a href=&quot;http://devconf.cz/schedule&quot;&gt;schedule&lt;/a&gt; of talks and workshops at DevConf.cz 2015. It was a tough job to pick the best talks from nearly 300 submissions. The schedule is busier than ever. The total number of talks and workshops is 154. The range of topics is also very wide: Kernel, JBoss, Networking, OpenShift, OpenStack, Security, Storage, Software Quality, System Management, Virtualization, Desktop, Containers, Databases, Hardware, Documentation, 3D Printing.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;form-item form-type-item&quot;&gt;
+  &lt;label&gt;Language &lt;/label&gt;
+ English
+&lt;/div&gt;
+&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; rel=&quot;dc:subject&quot;&gt;&lt;a href=&quot;/tags/schedule&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;schedule&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot; rel=&quot;dc:subject&quot;&gt;&lt;a href=&quot;/tags/talk&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;talk&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot; rel=&quot;dc:subject&quot;&gt;&lt;a href=&quot;/tags/workshop&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;workshop&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot; rel=&quot;dc:subject&quot;&gt;&lt;a href=&quot;/tags/django-girls&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;django girls&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 08 Jan 2015 12:55:04 +0000</pubDate>
+ <dc:creator>jeischma</dc:creator>
+ <guid isPermaLink="false">100 at http://www.devconf.cz</guid>
+  </item>
+  <item>
+    <title>Winter of Code 2015</title>
+    <link>http://www.devconf.cz/winter-code-2015</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Winter of Code 2015 - OpenShift hacking competition - has officialy started. Check out &lt;a title=&quot;Code&amp;amp;Win!&quot; href=&quot;http://openshift.devconf.cz/&quot;&gt;http://openshift.devconf.cz/&lt;/a&gt; - submit your cool openshift app, come to Developer Conference and win a Nexus tablet!&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;form-item form-type-item&quot;&gt;
+  &lt;label&gt;Language &lt;/label&gt;
+ English
+&lt;/div&gt;
+</description>
+     <pubDate>Fri, 21 Nov 2014 12:11:17 +0000</pubDate>
+ <dc:creator>rvokal</dc:creator>
+ <guid isPermaLink="false">99 at http://www.devconf.cz</guid>
+  </item>
+  <item>
+    <title>Call for Participation is OPEN!</title>
+    <link>http://www.devconf.cz/content/call-participation-open</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Good news everyone, the &lt;a href=&quot;http://devconf.cz/cfp&quot;&gt;Call for Participation for Developer Conference 2015&lt;/a&gt; is now open. Deadline for submitting your talk &amp;amp; workshop proposal is December 1st 2014!As always we&#039;re looking for technical topic, developer oriented, new technologies, new tools, cool things and great hacks! Submit your talk or workshop idea &lt;a href=&quot;http://devconf.cz/cfp&quot;&gt;now&lt;/a&gt;!&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;form-item form-type-item&quot;&gt;
+  &lt;label&gt;Language &lt;/label&gt;
+ English
+&lt;/div&gt;
+</description>
+     <pubDate>Wed, 17 Sep 2014 15:20:44 +0000</pubDate>
+ <dc:creator>rvokal</dc:creator>
+ <guid isPermaLink="false">96 at http://www.devconf.cz</guid>
+  </item>
+  <item>
+    <title>Dates and Venue for DevConf.cz 2015</title>
+    <link>http://www.devconf.cz/content/dates-and-venue-devconfcz-2015</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;We&#039;re happy to announce that DevConf.cz 2015 will take place on February 6-8th. After several years at Faculty of Informatics of Masaryk University, the conference is moving to &lt;a href=&quot;http://www.fit.vutbr.cz/.en&quot;&gt;Faculty of Information Technology of Brno University of Technology&lt;/a&gt;. The call for papers will be announced soon.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;form-item form-type-item&quot;&gt;
+  &lt;label&gt;Language &lt;/label&gt;
+ English
+&lt;/div&gt;
+&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; rel=&quot;dc:subject&quot;&gt;&lt;a href=&quot;/tags/2015&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;2015&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item odd&quot; rel=&quot;dc:subject&quot;&gt;&lt;a href=&quot;/tags/venue&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;venue&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;field-item even&quot; rel=&quot;dc:subject&quot;&gt;&lt;a href=&quot;/tags/date&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;date&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 02 Sep 2014 13:04:54 +0000</pubDate>
+ <dc:creator>jeischma</dc:creator>
+ <guid isPermaLink="false">94 at http://www.devconf.cz</guid>
+  </item>
+  <item>
+    <title>Videos from DevConf 2014 are available</title>
+    <link>http://www.devconf.cz/content/videos-devconf-2014-are-available</link>
+    <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Videos from this year&#039;s DevConf are available at &lt;a href=&quot;https://www.youtube.com/user/RedHatCzech&quot;&gt;our YouTube channel&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Slides are linked from all videos and are also avaiable at &lt;a href=&quot;http://devconf.cz/slides&quot;&gt;devconf.cz/slides&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;form-item form-type-item&quot;&gt;
+  &lt;label&gt;Language &lt;/label&gt;
+ English
+&lt;/div&gt;
+</description>
+     <pubDate>Tue, 25 Feb 2014 17:40:42 +0000</pubDate>
+ <dc:creator>vtrefny</dc:creator>
+ <guid isPermaLink="false">92 at http://www.devconf.cz</guid>
+  </item>
+  <item>
     <title>Check out the conference schedule!</title>
     <link>http://www.devconf.cz/content/check-out-conference-schedule</link>
     <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Take a look at &lt;a href=&quot;http://www.devconf.cz/schedule&quot;&gt;www.devconf.cz/schedule&lt;/a&gt; for the full conference schedule. We have 96 main speakers and several additional ones lined up for Lightning talks. Alltogether we plan to have 95 session and 6 sessions full of Lightning talks. It&#039;s going to be a PACKED EVENT!&lt;/p&gt;
