@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Red Hat Developer Conference</name>
+  <description><![CDATA[List of pubs, restaurants, important places for transportation and other places worth to see. Created for Red Hat Developer Conference 2015]]></description>
+  <Style id="university">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/health-education/education/university/ -->
+          <href>static/icons/university.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="entrance">
+    <IconStyle>
+      <Icon>
+          <href>static/icons/entrance.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="comment-map-icon">
+    <IconStyle>
+      <Icon>
+          <href>static/icons/comment-map-icon.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="train">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/transportation/other-types-of-transportation/train/ -->
+        <href>static/icons/train.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="bus">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/transportation/road-transportation/bus/ -->
+          <href>static/icons/bus.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="tramway">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/transportation/other-types-of-transportation/tram/ -->
+        <href>static/icons/tramway.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="airport">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/transportation/aerial-transportation/airport/ -->
+        <href>static/icons/airport.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="sight">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/tourism/place-to-see/sight/ -->
+          <href>static/icons/sight-2.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="castle">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/tourism/old-defensive-buildings/castle/ -->
+          <href>static/icons/castle-2.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="cathedral">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/tourism/cult-religion/cathedral/ -->
+          <href>static/icons/cathedral.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="restaurant">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/restaurants-bars/restaurants/restaurant/ -->
+        <href>static/icons/restaurant.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="grocery">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/stores/food-drink/grocery/ -->
+          <href>static/icons/grocery.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="coffee">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/restaurants-bars/bars/coffee/ -->
+          <href>static/icons/coffee.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="pizzaria">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/restaurants-bars/restaurants/pizzaria/ -->
+          <href>static/icons/pizzaria.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="urbanpark">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/tourism/park/ -->
+          <href>static/icons/urbanpark.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="lodging_4stars">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/restaurants-bars/hotels/lodging/ -->
+          <href>static/icons/lodging_4stars.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="lodging_3stars">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/restaurants-bars/hotels/lodging/ -->
+          <href>static/icons/lodging_3stars.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="bar">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/restaurants-bars/bars/bar/ -->
+          <href>static/icons/bar.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="steakhouse">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/restaurants-bars/restaurants/steakhouse/ -->
+        <href>static/icons/steakhouse.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="fastfood">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/restaurants-bars/restaurants/fast-food/ -->
+        <href>static/icons/fastfood.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="hospital">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/health-education/health/hospital/ -->
+          <href>static/icons/hospital-building.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="office">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/offices/real-estate/office-building/ -->
+        <href>static/icons/office-building.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="church">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/tourism/cult-religion/church/ -->
+          <href>static/icons/church-2.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="citysquare">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/tourism/place-to-see/city-square/ -->
+          <href>static/icons/citysquare.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="tower">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/tourism/old-defensive-buildings/tower/ -->
+        <href>static/icons/tower.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="theater">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/culture-entertainment/culture/theater/ -->
+          <href>static/icons/theater.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="dancinghall">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/culture-entertainment/culture/music/dancing-hall/ -->
+          <href>static/icons/dancinghall.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="wordheritage">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/tourism/place-to-see/world-heritage-site/ -->
+          <href>static/icons/worldheritagesite.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="museumart">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/culture-entertainment/culture/museums/art-museum/ -->
+          <href>static/icons/museum_art.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="anthropo">
+    <IconStyle>
+      <Icon>
+          <!-- http://mapicons.nicolasmollet.com/markers/culture-entertainment/culture/museums/museum-of-anthropology/ -->
+          <href>static/icons/anthropo.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>Faculty of Information Technology</name>
+    <description><![CDATA[<div dir="ltr">The place where the<b> Red Hat Developer Conference 2015</b> takes place.<br><br>Božetěchova 1/2, 612 00 Brno-Královo Pole</div>]]></description>
+    <styleUrl>#university</styleUrl>
+    <Point>
+      <coordinates>16.597122,49.226544,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  
+  
+  <Placemark>
+    <name>Entrance to FIT VUT</name>
+    <description><![CDATA[<div dir="ltr">Entrance to the Faculty of Information Technology, building where the conference takes place </div>]]></description>
+    <styleUrl>#entrance</styleUrl>
+    <Point>
+      <coordinates>16.596239,49.226386,0.000000</coordinates>
+    </Point>
+  </Placemark>
+
+  
+  <Placemark>
+    <name>Presentations rooms</name>
+    <description><![CDATA[<div dir="ltr">The lecture rooms of faculty, where conference presentations will be given, need to enter through the main entrance.</div>]]></description>
+    <styleUrl>#comment-map-icon</styleUrl>
+    <Point>
+      <coordinates>16.596837,49.226306,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  
+  <Placemark>
+    <name>Ventana Café</name>
+    <description><![CDATA[<div dir="ltr">Nice non smoking cafe.</div><div><a href="http://www.ventanacafe.cz/" target="_blank">website</a></div><div><br>&nbsp;</div><div>Opening hours:</div><div>Monday - Friday: 7:30 - 22:00</div><div>Saturday: 15:00 - 22:00</div><div>Sunday: 13:00 - 16:00</div>]]></description>
+    <styleUrl>#cafe</styleUrl>
+    <Point>
+      <coordinates>16.5959997,49.2264000,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  
+  <Placemark>
+    <name>Semilasso bus station</name>
+    <description><![CDATA[<div dir="ltr">Bus number 44 from main bus station stops here.</div>]]></description>
+    <styleUrl>#bus</styleUrl>
+    <Point>
+      <coordinates>16.5932714,49.2281525,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  
+  <Placemark>
+    <name>Semilasso tram station</name>
+    <description><![CDATA[<div dir="ltr">Tram number 1 from main train station stops here.</div>]]></description>
+    <styleUrl>#tramway</styleUrl>
+    <Point>
+      <coordinates>16.5927217,49.2273931,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  
+  <Placemark>
+    <name>Hrnčířská tram station</name>
+    <description><![CDATA[<div dir="ltr">Station near Avanti hotel. To go to the venue, use tram no. 1 to Semilasso station.</div>]]></description>
+    <styleUrl>#tramway</styleUrl>
+    <Point>
+      <coordinates>16.6025833,49.2106144,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  
+  <Placemark>
+    <name>Hudcova tram station</name>
+    <description><![CDATA[<div dir="ltr">Station near Vista hotel. To go to the venue, use tram no. 1 to Semilasso station.</div>]]></description>
+    <styleUrl>#tramway</styleUrl>
+    <Point>
+        <coordinates>16.5870653,49.2357269,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  
+  <Placemark>
+    <name>Hotel Avanti</name>
+    <description><![CDATA[<div>Hotel Avanti is located 5 tram stops from the venue (approx 6 minutes ride) -- use tram no. 1 from Hrnčířská station to Semilasso (direction Řečkovice).</div><div><br>&nbsp;</div><div><a href="http://www.brno-hotel-avanti.eu/" target="_blank">web page</a></div>]]></description>
+    <styleUrl>#lodging_4stars</styleUrl>
+    <Point>
+      <coordinates>16.604706,49.212959,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  
+  <Placemark>
+    <name>Hotel Vista</name>
+    <description><![CDATA[<div>Hotel Avanti is located 2 tram stops from the venue (approx 3 minutes ride) -- use tram no. 1 from Hudcova station to Semilasso (direction Ečerova).</div><div><br>&nbsp;</div><div><a href="http://www.vista-hotel.cz/homepage//" target="_blank">web page</a></div>]]></description>
+    <styleUrl>#lodging_3stars</styleUrl>
+    <Point>
+      <coordinates>16.5823322,49.2361561,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  
+  <Placemark>
+    <name>Main train station</name>
+    <description><![CDATA[The best way to get to the conference from here, is to take a&nbsp;<b>tram number 1 </b>and to get off at<b>&nbsp;</b>the <b>Semilasso </b>tram station, from where you can walk(approximately 5 min) to the Dev Conf&nbsp;<div><br>&nbsp;</div><div>This mark is placed approximately at the place from where this tram is leaving. You can get tram tickets from ticket machines or in case you do not have change you can ask for some in near&nbsp;newsstands.</div>]]></description>
+    <styleUrl>#train</styleUrl>
+    <Point>
+      <coordinates>16.612514,49.191368,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Main bus station</name>
+    <description><![CDATA[<div dir="ltr">You have two options to get to conference by public transportation from here:<br><b>1.</b> by bus number 44., from Zvonarka bus station, which is just beside this place on the right, get off at Semilasso bus station.<br><b>2. </b>walk (15 min approximately) to the Main train station, and take tram number 1.(see bus mark there)</div>]]></description>
+    <styleUrl>#bus</styleUrl>
+    <Point>
+      <coordinates>16.616392,49.185833,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Zvonarka bus station</name>
+    <description><![CDATA[<div dir="ltr">The correct station from where you can take bus number 44.(see main bus station mark)</div>]]></description>
+    <styleUrl>#bus</styleUrl>
+    <Point>
+      <coordinates>16.6191667,49.1870750,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Brno airport</name>
+    <description><![CDATA[<div dir="ltr">The best option to get to the Developer conference from here is to take bus number <b>76 </b>and to get off at the Main train station - terminate station.</div><div dir="ltr">(89. in case you are landing in between 22:00 and 05:00)</div>]]></description>
+    <styleUrl>#airport</styleUrl>
+    <Point>
+      <coordinates>16.685915,49.155441,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Main Square</name>
+    <description><![CDATA[The main square, there are lot of small restaurants, pubs, cafe, every is different, worth to walk around historic downtown.]]></description>
+    <styleUrl>#sight</styleUrl>
+    <Point>
+      <coordinates>16.608347,49.195152,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Spilberg Castle</name>
+    <description><![CDATA[with its notorious casemates is one of the landmarks of Brno. By the way, it is the highest point of the town (288 m above sea level).<br><div><br><a href="http://en.wikipedia.org/wiki/%C5%A0pilberk_Castle" target="_blank">&nbsp;link</a></div>]]></description>
+    <styleUrl>#castle</styleUrl>
+    <Point>
+      <coordinates>16.600126,49.194473,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cathedral of St Peter and Paul (aka Petrov)</name>
+    <description><![CDATA[<div dir="ltr">Outstanding cathedral, gothic style from outside, baroque interior. I recommend to visit it and to also to visit the tower of this cathedral, entrance from right side, brilliant views from there.<br>&nbsp;<br><a href="http://en.wikipedia.org/wiki/Cathedral_of_St._Peter_and_Paul,_Brno" target="_blank">link</a></div>]]></description>
+    <styleUrl>#cathedral</styleUrl>
+    <Point>
+      <coordinates>16.607208,49.191017,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  
+  <Placemark>
+    <name>Albert</name>
+    <description><![CDATA[Shopping mall, groceries drugstore<div><br>&nbsp;</div><div>opening hours:&nbsp;</div><div>Monday - Sunday: 07:00 - 21:00</div>]]></description>
+    <styleUrl>#grocery</styleUrl>
+    <Point>
+      <coordinates>16.5926806,49.2281286,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Luzanky park</name>
+    <description><![CDATA[One of the biggest park in Brno, lot of small paths, nice to have walk there when you want to release stress<div><a href="http://www.flickr.com/photos/migabi/4477696772/" target="_blank">photos</a></div>]]></description>
+    <styleUrl>#urbanpark</styleUrl>
+    <Point>
+      <coordinates>16.608582,49.206734,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Student agency bus station</name>
+    <description><![CDATA[<div dir="ltr"><b>Student agency bus station,</b> from here buses to Prague, Bratislava and Vienna are going. and of course vice versa.<br>The best way to go from here to Developer Conference is to get on <b>tram number 1.</b> from near tram station at Main train station, it is marked at this map as a small train.<br><br><a href="http://jizdenky.studentagency.cz/" target="_blank">student agency web</a></div>]]></description>
+    <styleUrl>#bus</styleUrl>
+    <Point>
+      <coordinates>16.614332,49.193527,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hotel Continental</name>
+    <description><![CDATA[<div dir="ltr"><b>Hotel Continental</b>, the best way to get to Developer Conference from here by public transportation is to take&nbsp;<b>tram number 1</b>. from tram station <b>Antonínská </b></div>]]></description>
+    <styleUrl>#lodging_4stars</styleUrl>
+    <Point>
+      <coordinates>16.604462,49.200497,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hotel Slovan</name>
+    <description><![CDATA[<b>Hotel Slovan</b>, the best way to get to Developer Conference from here by public transportation is to take&nbsp;<b>tram number 1</b>. from tram station Moravske Namesti and <b>get off at Semilasso</b>.]]></description>
+    <styleUrl>#lodging_3stars</styleUrl>
+    <Point>
+      <coordinates>16.607016,49.201839,0.000000</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name>Hamburgers</name>
+    <description><![CDATA[Something like Mc Donalds but this one has little less quality, but what is important is open <b>24/7</b>]]></description>
+    <styleUrl>#fastfood</styleUrl>
+    <Point>
+      <coordinates>16.612080,49.191437,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Vyhlidka Pub with a spectacular view of Brno</name>
+    <description><![CDATA[<div dir="ltr">On the very top of this building(there is also big logo of Student Agancy) is bar with a spectacular view of night Brno. It is suited at 5. floor, but you can take an elevator. It is smoking pub and they have live club(DJs) music.<br>On the six floor you can find terrace with telescope.<br><a href="http://www.vyhlidka-cafe.cz/html/index2.htm" target="_blank">photos</a></div><div dir="ltr"><br>&nbsp;</div><div dir="ltr">Opening hours:</div><div dir="ltr">Monday - Thursday: 10:00 - 02:00</div><div dir="ltr">Friday: 10:00 - 04:00</div><div dir="ltr">Saturday: 13:00 - 04:00</div><div dir="ltr">Sunday: 13:00 - 02:00</div>]]></description>
+    <styleUrl>#bar</styleUrl>
+    <Point>
+      <coordinates>16.608444,49.194374,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Middle Ages pub</name>
+    <description><![CDATA[Stylish pub, which is suited into middle ages, you can taste good beer and food there.<div>Opening hours: from 11 - till the last customer leaves</div><div><br>&nbsp;</div><div><a href="http://brno.stredovekakrcma.cz/mindex.html" target="_blank">photos</a></div>]]></description>
+    <styleUrl>#bar</styleUrl>
+    <Point>
+      <coordinates>16.606754,49.195827,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Svejk restaurant and pub</name>
+    <description><![CDATA[Very traditional Czech pub, it is decorated with Czech book hero - Svejk. There is always good cold beer, tasty food and nice waitresses.<div><br>&nbsp;</div><div>Opening hours:&nbsp;</div><div>Monday - Saturday: 11:00 - 24:00</div><div>Sunday: 11:00 - 22:00</div><div><br>&nbsp;</div><div><a href="http://www.olteco.cz/fotogalerie.aspx" target="_blank">photos</a></div>]]></description>
+    <styleUrl>#bar</styleUrl>
+    <Point>
+      <coordinates>16.605261,49.197128,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hospital with healthcenter</name>
+    <description><![CDATA[Interesting mainly because of doctor care.<div>It is opened at normal work day from 17:00 to 07:00 am, and in free days it is opened 24 hours per day.</div><div>There are also emergency dentists.</div><div>If you are so unfortunate to go there, remember that you have to pay an fee in the entrance to this building, in small machine on the wall(about 100 czk). If you do not have Czech insurance, you will have to pay whole fee for visiting this doctor and you can let your insurance at your country repay it if possible.</div>]]></description>
+    <styleUrl>#hospital</styleUrl>
+    <Point>
+      <coordinates>16.615271,49.197746,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Paladeo restaurant - non smoking spanish restaurant</name>
+    <description><![CDATA[Quite close to Red Hat Czech - Brno office (approximately 12 min walk - 2 min car).<div>They have nice <a href="http://www.paladeo.cz/en/" target="_blank">website</a> in English.</div><div><br>&nbsp;</div><div>Opening hours:</div><div>Monday - Thursday:&nbsp;11:00-23:00</div><div>Friday:&nbsp;11:00-24:00</div><div>Saturday:&nbsp;12:00-24:00</div><div>Sunday:&nbsp;12:00-22:00</div>]]></description>
+    <styleUrl>#restaurant</styleUrl>
+    <Point>
+      <coordinates>16.584368,49.220879,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Red Hat Czech - Brno office</name>
+    <description><![CDATA[<div><span style="font-family:arial;font-size:10pt">The&nbsp;</span><font face="arial" size="2">headquarters of the Red Hat Czech, the organizer of Red Hat Developer Conference.</font></div><div><font face="arial" size="2"><br></font></div><div style="font-family:arial;font-size:10pt"><span style="font-size:10pt">You can get here by public transportation, you can take tram number </span><b style="font-size:10pt">12</b><span style="font-size:10pt">, for example from </span><b style="font-size:10pt">Main train station </b><span style="font-size:10pt">and get off at Cervinkova tram station.</span></div>]]></description>
+    <styleUrl>#office</styleUrl>
+    <Point>
+      <coordinates>16.581663,49.226131,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cafe Tungsram</name>
+    <description><![CDATA[Nice cafe, in the historic downtown.<div><a href="http://www.lunchtime.cz/cafe-tungsram/" target="_blank">photos</a></div><div><br>&nbsp;</div><div>Opening hours:</div><div>Monday - Saturday: 08:00 - 22:00</div><div>Sunday: 10:00 - 22:00</div>]]></description>
+    <styleUrl>#cafe</styleUrl>
+    <Point>
+      <coordinates>16.609461,49.191605,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cafe spolek</name>
+    <description><![CDATA[Nice cafe with bookshop too.<div><a href="http://spolek.net/flickr" target="_blank">photos</a></div><div><br>&nbsp;</div><div>Opening hours:</div><div>Monday - Friday: 09:00 - 22:00</div><div>Saturday - Sunday: 10:00 - 22:00</div>]]></description>
+    <styleUrl>#cafe</styleUrl>
+    <Point>
+      <coordinates>16.612471,49.194092,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Jazz Cafe Podobrazy</name>
+    <description><![CDATA[Nice Jazz cafe.<div><a href="http://www.podobrazy.cz/?show=foto" target="_blank">photos</a></div><div><br>&nbsp;</div><div>Opening hours:</div><div>Monday - Friday: 10:00 - 23:00</div><div>Saturday - Sunday: 15:00 - 23:00</div>]]></description>
+    <styleUrl>#cafe</styleUrl>
+    <Point>
+      <coordinates>16.607590,49.197960,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cafe Mezzanine</name>
+    <description><![CDATA[Nice cafe under Spilberg castle.<div><a href="http://www.cafe-mezzanine.cz/galerie.html" target="_blank">photos</a></div><div><br>&nbsp;</div><div>Opening hours:</div><div>Monday - Friday: 07:00 - 23:00</div><div>Saturday - Sunday: 11:00 - 23:00</div>]]></description>
+    <styleUrl>#cafe</styleUrl>
+    <Point>
+      <coordinates>16.600641,49.196831,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cafe Podnebi</name>
+    <description><![CDATA[Right under Spilberg castle. Very nice.<div><a href="http://www.podnebi.cz/foto/cafe-podnebi/" target="_blank">photos</a></div><div><br>&nbsp;</div><div>Opening hours:</div><div>Monday - Thursday: 8:00 - 23:00</div><div>Friday: 08:00 - 24:00</div><div>Saturday: 09:00 - 24:00</div><div>Sunday: 09:00 - 23:00</div>]]></description>
+    <styleUrl>#cafe</styleUrl>
+    <Point>
+      <coordinates>16.602127,49.196037,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Avia Cafe</name>
+    <description><![CDATA[Nice cafe with good food too. You can also play there a snooker. It was established as in memory for legendary car Avia.]]></description>
+    <styleUrl>#cafe</styleUrl>
+    <Point>
+      <coordinates>16.603186,49.203587,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cafe Falk</name>
+    <description><![CDATA[Very nice cafe with both smoking and non smoking parts.<div><a href="http://www.falkcafe.cz/" target="_blank">photos</a></div><div>Opening hours:</div><div>Monday - Friday: 07:30 - 24:00</div><div>Saturday - Sunday: 12:00 - 24:00</div>]]></description>
+    <styleUrl>#cafe</styleUrl>
+    <Point>
+      <coordinates>16.599270,49.200039,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Blahovka beer pub</name>
+    <description><![CDATA[Legendary old school pub, with probably the best Pilsner on the tap, it is so legendary that usually you have to drink your beer outside.]]></description>
+    <styleUrl>#bar</styleUrl>
+    <Point>
+      <coordinates>16.592295,49.199177,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>U Proutnika - non smoking beer pub</name>
+    <description><![CDATA[According to some people opinions they serve the best beer in Brno.<div><br>&nbsp;</div><div>Opening hours:</div><div>Monday - Friday: 15:00 - 23:00</div>]]></description>
+    <styleUrl>#bar</styleUrl>
+    <Point>
+      <coordinates>16.600449,49.200912,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Club Netopir - Beer and vine club</name>
+    <description><![CDATA[Rich offer of beers and vine, there is disco near, so if you are not very tired you can enjoy.<div><a href="http://www.fleda-klubnetopyr.cz/vinarna.php" target="_blank">photos</a></div><div><br>&nbsp;</div><div>Opening hours:</div><div>tavern - 18:00 - 03:00</div><div>beer pub: 19:00 - 03:00</div>]]></description>
+    <styleUrl>#bar</styleUrl>
+    <Point>
+      <coordinates>16.603298,49.209824,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Theater restaurant Nekonecno</name>
+    <description><![CDATA[<div dir="ltr">Traditional meeting place for Brno actors and actress. You will be surprised by plenty of mirrors, which gives you feeling of big space. There is also beautiful ceiling which should imitate night sky and is decorated with City theater actors and actress pictures.<br><a href="http://www.nekonecnorestaurant.cz/fotogalerie.php" target="_blank">photos</a></div><div dir="ltr"><br>&nbsp;</div><div dir="ltr">Opening hours:</div><div dir="ltr">Monday - Sunday: 11:00 - 01:00</div>]]></description>
+    <styleUrl>#bar</styleUrl>
+    <Point>
+      <coordinates>16.607401,49.201416,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Kupe - restaurant</name>
+    <description><![CDATA[Vegetarian only, oriental restaurant. Free WIFI. They are offering about 60 kinds of food from&nbsp;Mediterranean and Egypt kitchen. They are also offering&nbsp;gluten-free food.<div><a href="http://www.lunchtime.cz/kupe/" target="_blank">photos</a></div><div><br>&nbsp;</div><div>Opening hours:</div><div>Monday - Thursday: 11:00 - 23:00</div><div>Friday: 11:00 - 01:00</div><div>Saturday: 12:00 - 01:00</div><div>Sunday: 12:00 - 20:00</div>]]></description>
+    <styleUrl>#restaurant</styleUrl>
+    <Point>
+      <coordinates>16.600311,49.200970,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>TRAVELLERS´ CLUB - restaurant</name>
+    <description><![CDATA[<span style="font-size:12px;line-height:15px;text-align:left;background-color:rgb(255, 255, 255)">Restaurant with authentic Arabic cuisine, non-smoking (except hookahs), guiet big summer garden in the yard, oriental and belly dancers, 60 special real teas, travellers slideshows and ethnic nights, new photo exhibition monthly, free WiFi, Magical Map of Wishes and more …</span><div><span style="font-size:12px;line-height:15px;text-align:left;background-color:rgb(255, 255, 255)"><a href="http://www.hedvabnastezka.cz/klub-cestovatelu-brno" target="_blank">photos</a></span></div><div><br>&nbsp;</div><div>Opening hours:</div><div>Monday - Thursday: 1<span style="background-color:rgb(255, 255, 255);font-size:12px;line-height:15px;text-align:left">1:00 - 23:00</span></div><div><span style="background-color:rgb(255, 255, 255);font-size:12px;line-height:15px;text-align:left">Friday:&nbsp;</span><span style="background-color:rgb(255, 255, 255);font-size:12px;line-height:15px;text-align:left">11:00 - 24:00</span></div><div><span style="background-color:rgb(255, 255, 255);font-size:12px;line-height:15px;text-align:left">Saturday:&nbsp;</span><span style="background-color:rgb(255, 255, 255);font-size:12px;line-height:15px;text-align:left">12:00 - 24:00</span></div><div><span style="background-color:rgb(255, 255, 255);font-size:12px;line-height:15px;text-align:left">Sunday:&nbsp;</span><span style="background-color:rgb(255, 255, 255);font-size:12px;line-height:15px;text-align:left">12:00 - 22:00</span></div>]]></description>
+    <styleUrl>#restaurant</styleUrl>
+    <Point>
+      <coordinates>16.597252,49.220676,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>The Immigrant - pub</name>
+    <description><![CDATA[True English speaking non-smoking piano bar, one of the few pubs where they have foreign beers, here you can drink&nbsp;Guiness and&nbsp;cider Magners.<div><br>&nbsp;</div><div>Opening hours:</div><div>Monday - Sunday: 15:00 - 03:00</div>]]></description>
+    <styleUrl>#pub</styleUrl>
+    <Point>
+      <coordinates>16.596630,49.203087,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Albert shopping mall</name>
+    <description><![CDATA[Groceries and drugs store, the entrance is building with logo Rozkvet.<div><br>&nbsp;</div><div>Opening hours:</div><div>Monday - Sunday: 07:00 - 21:00</div>]]></description>
+    <styleUrl>#grocery</styleUrl>
+    <Point>
+      <coordinates>16.608576,49.194099,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>St. James&#39; Church</name>
+    <description><![CDATA[<div dir="ltr">its construction started in the second-half of the 14 century and was completed in 1552. It is one of finest pieces of architecture in the town. The main portal is 19m high, with a remarkable 90m high tower. Behind the main alter is the tomb of Radiut de Souches, heroic commander of chec Brno beseist by Sweedes.</div>]]></description>
+    <styleUrl>#church</styleUrl>
+    <Point>
+      <coordinates>16.607862,49.196507,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>The Church of the Invention of the holy Cross</name>
+    <description><![CDATA[<div dir="ltr">the church of the Capuchin Cloiser (1648-1651). The crypt with the mummified bodies of former inmates and benefactors of the cloiser and the remains of pandour Trenck is also open for visitors.</div>]]></description>
+    <styleUrl>#church</styleUrl>
+    <Point>
+      <coordinates>16.609810,49.191463,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>The Cabbage Market</name>
+    <description><![CDATA[<div dir="ltr">is the biggest Brno square with lively vegetable market (during summer). The central part is dominated by PARNASUS, a large stone fountain from 1696</div>]]></description>
+    <styleUrl>#citysquare</styleUrl>
+    <Point>
+      <coordinates>16.608824,49.192341,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>The Old Town Hall</name>
+    <description><![CDATA[<div dir="ltr">was the seat of municipal administration till 1935. From the ceiling of the corridors hangs the famous Brno wheel and Brno dragon, the symbol of Brno.</div>]]></description>
+    <styleUrl>#tower</styleUrl>
+    <Point>
+      <coordinates>16.608484,49.192978,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>The Church of St. Michael</name>
+    <description><![CDATA[<div dir="ltr">with sculptures of nine saints.</div>]]></description>
+    <styleUrl>#church</styleUrl>
+    <Point>
+      <coordinates>16.606871,49.193623,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>St. Thomas Church</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#church</styleUrl>
+    <Point>
+      <coordinates>16.607821,49.197819,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Janacek Opera House</name>
+    <description><![CDATA[<div dir="ltr">the new theater was erected between 1960 - 65 and is used by the opera and ballet companies of the Brno State Theater.</div>]]></description>
+    <styleUrl>#theater</styleUrl>
+    <Point>
+      <coordinates>16.610340,49.197887,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>The Land Theater</name>
+    <description><![CDATA[<div dir="ltr">was built in 1881 - 82 by the famous Vienna-based Fellner and Helmer Co., builders of theater in various towns of Austria-Hungary. It is the home stage of the Brno State Theater drama company</div>]]></description>
+    <styleUrl>#theater</styleUrl>
+    <Point>
+      <coordinates>16.613506,49.196072,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tyrsuv sad - park</name>
+    <description><![CDATA[<div dir="ltr">Small but very nice park, you will enjoy it mostly in the summer but it is nice to walk there also during winter. It is opened till 11pm.<br><br><a href="http://www.augle.cz/parky/tyrsuv-sad" target="_blank">photos</a></div>]]></description>
+    <styleUrl>#urbanpark</styleUrl>
+    <Point>
+      <coordinates>16.601801,49.203587,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fleda club</name>
+    <description><![CDATA[<div dir="ltr">Music bar and dance club. Its <a href="http://fleda.cz/">web site</a>.</div>]]></description>
+    <styleUrl>#dancinghall</styleUrl>
+    <Point>
+      <coordinates>16.603281,49.209869,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Villa Tugendhat</name>
+    <description><![CDATA[<div dir="ltr">The Villa of Greta and Fritz Tugendhat from the years 1929-1930, designed by the architect Ludwig Mies van der Rohe, is an installed monument to Modern architecture. It is the only examplar of Modern architecture in the Czech Republic recorded on the UNESCO List of World Cultural Heritage.<br/>Open to the public from <b>Tuesday to Sunday from 10:00 to 18:00</b> <br/>Its <a href="http://www.tugendhat.eu/en/">web site</a>. <br/><img src="static/photos/tugendhat_villa.jpg"/></div>]]></description>
+    <styleUrl>#wordheritage</styleUrl>
+    <Point>
+      <coordinates>16.616001,49.207243,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Labyrinth under Vegetable Market</name>
+    <description><![CDATA[<div dir="ltr">Few towns in the Czech Republic can boast a phenomenon as rare as the complex maze of underground corridors, tunnels, crypts and cellars. The project of opening the underground to the public is divided into several phases. The first attraction was the Mintmaster’s Cellar in Dominican Square opened in 2010. The second one was the large Labyrinth under Vegetable Market opened on 1 April 2011. And last but not least, one of the most interesting recent discoveries – the skeletal remains of approximately fifty thousand people found in the ossuary under St. James’ Church – will be presented to the public in 2014. <br />Its <a href="http://www.ticbrno.cz/podzemi">web site</a>.</div>]]></description>
+    <styleUrl>#wordheritage</styleUrl>
+    <Point>
+      <coordinates>16.609487,49.192839,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>The Moravian Museum</name>
+    <description><![CDATA[<div dir="ltr">Today, the museum collections include several million objects, representing valuable scientific material from the fields of literature, music and theatre, geology, mineralogy, botany, zoology and entomology. Fifteen specialised and several service departments work within the museum.<br />Its <a href="http://www.mzm.cz/en/about-us/">web site</a>.</div>]]></description>
+    <styleUrl>#museumart</styleUrl>
+    <Point>
+      <coordinates>16.609,49.191919,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Anthropos Pavilion</name>
+    <description><![CDATA[<div dir="ltr">The permanent exhibition on the oldest history of the settlement in Moravia as well as on the whole European continent consists of three parts created by our outstanding specialists: "Moravian Hunters and Gatherers", "The oldest Art of Europe" and "Palaeolithic Technologies". The second part brings up-to-date discoveries concerning the evolution of man and the beginnings of his culture: "Genetics in the Evolution of Man", "The Story of Mankind" complemented with the presentation of the behaviour of man's next relatives – primates, shown in the section "Cousins or Brothers? – Ethology of Primates". <br />Its <a href="http://www.mzm.cz/en/pavilonanthropos/">web site</a>.</div>]]></description>
+    <styleUrl>#anthropo</styleUrl>
+    <Point>
+      <coordinates>16.567056,49.19216,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Capuchin Crypt and Church</name>
+    <description><![CDATA[<div dir="ltr">The church is situated on the Capuchin Square near the Cabbage Market. Next to the church stands the Capuchin Monastery. The front side of the church is decorated with the Baroque sculptures by Jan Adam Nessman from 1765.
+The most interesting place is the Capuchin crypt which is located beneath the church. Due to the good geological structure of soil and system of air-holes, it was possible to mummify the corpses which have been preserved in the underground of the church to the present-day. Except for the members of the Capuchin Order, the builders Ondřej and Jan Křtitel Ern and baron Franz von der Trenck (a commander of the Pandur and Špilberk prisoner) are buried there.
+Visitors can attend a permanent exhibition whose part is a tour of the Capuchin crypt with mummies. <br />Its <a href="http://www.brno.me/sights.html#capuchin">web site</a>.</div>]]></description>
+    <styleUrl>#church</styleUrl>
+    <Point>
+      <coordinates>16.609628,49.191305,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>
